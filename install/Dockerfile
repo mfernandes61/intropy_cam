@@ -1,6 +1,7 @@
 FROM ubuntu
 MAINTAINER Mark Dunning<mark.dunning@cruk.cam.ac.uk>
 
+
 RUN sudo apt-get update
 RUN apt-get install -y ipython ipython-notebook git
 RUN git clone https://github.com/pycam/python-intro.git
